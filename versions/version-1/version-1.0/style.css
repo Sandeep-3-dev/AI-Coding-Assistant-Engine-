@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:antiquewhite;
+     min-height: 99.9vh;
+     width: 100vw;
+    margin:0px;
+    padding: 0px;
+    border:1px solid rgba(246, 244, 244, 0.60);
+    box-sizing: border-box;
+}
+#chatbot{
+    text-align: center;
+    font-family: "Oxanium", cursive;
+    font-size: 3rem;
+    word-spacing: 6px;
+    color:rgba(255, 255, 255,0.9);
+
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+#box {
+    width: 80vw;
+    height: 75vh;
+    background: rgba(24, 22, 22, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    border-radius: 60px;
+    box-shadow:
+        0 2px 40px rgba(246, 244, 244, 0.5);
+    overflow: hidden;
+    position:absolute;
+    top:16%;
+    left:10%;
+}
