@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Chat Bot</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-    <h1 id="chatbot"> Simple Chat Bot (No Memory) </h1>
-    <div id="box">
-    <span class="top"></span>
-    <span class="right"></span>
-    <span class="bottom"></span>
-    <span class="left"></span>
 
-</div>
+    <div class="container">
+
+        <h1 id="chatbot">Simple Chat Bot (No Memory)</h1>
+
+        <div id="box">
+
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            <span class="left"></span>
+
+            <!-- Chat Messages -->
+            <div id="chat-box"></div>
+
+        </div>
+
     </div>
-    </div>
+
     <div id="search-box">
-        <h1 id="search">🔍︎ &nbsp;Search Box</h1>
+
+        <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message..."
+        >
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
     </div>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+
 </body>
 </html>
